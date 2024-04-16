@@ -1,9 +1,7 @@
 # Banksystem
 Banksystem als Übung
 
-## Git Workflow
-
-### Das erstellen eines lokalen Repos
+## Das erstellen eines lokalen Repos
 
 Zuerst wird ein Ordner benötigt.
 
@@ -13,7 +11,7 @@ Zuerst wird ein Ordner benötigt.
     `git remote add origin <remote-url>`
 4. Der aktuelle Stand des Repos wird gepullt: `git pull origin main`
 
-### Arbeiten am remote Repo
+## Arbeiten am remote Repo
 
 Für ein neues Feature soll ein neuer Branch angelegt werden.
 
