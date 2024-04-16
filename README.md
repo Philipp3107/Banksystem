@@ -29,7 +29,7 @@ Damit der Branch nicht nur auf dem lokalen Repository verfügbar ist, muss diese
 
 Um sich auf den finalen Pull-Request vorzubereiten müssen alle Updates des remote dev-Branches auf den lokalen Feature-Branch gepullt werden.
 
-`git pull origin dev`
+`git pull origin main`
 
 Nun kann eine Pull-Request, um den Feature-Branch auf den dev-Branch zu ziehen, erstellt werden. Andere Teammitglieder schauen sich diese Pull-Request (Review) an und geben dazu Feedback. Ist das Einverständnis des Teams da, kann die Pull-Request durchgeführt werden.
 
