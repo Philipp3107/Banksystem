@@ -3,6 +3,18 @@ Banksystem als Übung
 
 ## Git Workflow
 
+### Das erstellen eines lokalen Repos
+
+Zuerst wird ein Ordner benötigt.
+
+1. Innerhalb dieses Ordners wird er command `git init` ausgeführt.
+
+2. Die url aus dem Repo wird kopiert und mit folgendem Command als remote hinzugefügt <br>
+    `git remote add origin <remote-url>`
+3. Der aktuelle Stand des Repos wird gepullt: `git pull origin main`
+
+### Arbeiten am remote Repo
+
 Für ein neues Feature soll ein neuer Branch angelegt werden.
 
 `git checkout -b <feature_branch_name>`
