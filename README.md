@@ -7,11 +7,11 @@ Banksystem als Übung
 
 Zuerst wird ein Ordner benötigt.
 
-1. Innerhalb dieses Ordners wird er command `git init` ausgeführt.
+1. Innerhalb dieses Ordners wird der command `git init` ausgeführt.
 
-2. Die url aus dem Repo wird kopiert und mit folgendem Command als remote hinzugefügt <br>
+3. Die url aus dem Repo wird kopiert und mit folgendem Command als remote hinzugefügt <br>
     `git remote add origin <remote-url>`
-3. Der aktuelle Stand des Repos wird gepullt: `git pull origin main`
+4. Der aktuelle Stand des Repos wird gepullt: `git pull origin main`
 
 ### Arbeiten am remote Repo
 
