@@ -4,6 +4,12 @@ public abstract class Konto{
     private static int kontonummer;
     private double betrag;
 
+    public Konto(String inhaber, int kontonummer, double betrag){
+        inhaber = inhaber;
+        kontonummer = kontonummer;
+        betrag = betrag;
+    }
+
     public static String getInhaber() {
         return inhaber;
     }
