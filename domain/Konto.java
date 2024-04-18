@@ -3,6 +3,7 @@ public abstract class Konto{
     private static String inhaber;
     private static int kontonummer;
     private double betrag;
+    private int dispo;
 
     public Konto(String inhaber, int kontonummer, double betrag){
         inhaber = inhaber;
@@ -32,5 +33,13 @@ public abstract class Konto{
 
     public void setBetrag(double betrag) {
         this.betrag = betrag;
+    }
+
+    public int getDispo() {
+        return dispo;
+    }
+
+    public void setDispo(int dispo) {
+        this.dispo = dispo;
     }
 }
